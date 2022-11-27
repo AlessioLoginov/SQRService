@@ -6,7 +6,7 @@ public class SQRService {
         int countSqr = 0; // инициализируем счетчик
         for (int i = 10; i < 100; i++) {
             boolean moreLeft = i * i >= startRange; //больше или равно левой границы диапазона
-            boolean lessRight = i * i <= endRange;  //меньше или равно правой границу диапазона
+            boolean lessRight = i * i <= endRange;  //меньше или равно правой границы диапазона
             if (moreLeft & lessRight) {
                 countSqr++; // если попадает, увеличиваем счетчик
             }
