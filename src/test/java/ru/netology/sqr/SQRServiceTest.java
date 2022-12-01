@@ -9,7 +9,7 @@ public class SQRServiceTest {
     @CsvFileSource(files = "src/test/resources/sqrt.csv")
     public void testNumberSQR(int startRange, int endRange, int expected) {
         SQRService service = new SQRService();
-        int actual = service.NumberSQR(startRange, endRange);
+        int actual = service.numberSqrt(startRange, endRange);
         Assertions.assertEquals(expected, actual);
 
     }

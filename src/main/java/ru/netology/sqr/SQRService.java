@@ -2,7 +2,7 @@ package ru.netology.sqr;
 
 public class SQRService {
 
-    public static int NumberSQR(int startRange, int endRange) {
+    public static int numberSqrt(int startRange, int endRange) {
         int countSqr = 0; // инициализируем счетчик
         for (int i = 10; i < 100; i++) {
             boolean moreLeft = i * i >= startRange; //больше или равно левой границы диапазона
